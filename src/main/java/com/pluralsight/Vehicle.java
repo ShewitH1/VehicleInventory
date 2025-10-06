@@ -16,11 +16,11 @@ public class Vehicle {
     }
 
     public Vehicle(){
-        this.vehicleId = vehicleId;
-        this.makeModel = makeModel;
-        this.color = color;
-        this.odometerReading = odometerReading;
-        this.price = price;
+        this.vehicleId = 0;
+        this.makeModel = " ";
+        this.color = " ";
+        this.odometerReading = 0;
+        this.price = 0;
     }
 
     public long getVehicleId() {
